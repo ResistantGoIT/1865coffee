@@ -1,8 +1,26 @@
+html {
+   box-sizing: border-box;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+ * {
+   margin: 0;
+   padding: 0;
+ }
 .container {
-   margin: 0 200px;
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
 }
 header {
    background-color: #29685F;
+   margin-bottom: 2px;
 }
 div li {
    font-family: 'Fredericka the Great', cursive;
@@ -27,15 +45,51 @@ a {
    text-decoration: none;
    color: white;
 }
+.section__menu{
+   background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("/images/cooffee_shop.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 50px;
+   color: #fff;
+   text-shadow: 4px 4px 10px #29685F;
+}
+
 .menu {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+   
+}
+h3 {
+   display: flex;
+   font-family: Alegreya SC;
+   text-transform: uppercase;
+   justify-content: space-around;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-size: 30px;
+}
+.menu__item{
+   line-height: 1.75;
 }
 .menu__price {
    display: flex;
+   justify-content: space-between;
+
+}
+.menu__price li {
+   font-family: Alegreya SC;
+   text-transform: uppercase;
+   font-size: 22px;
 }
 .price {
-   line-height: 1.4;
+   line-height: 1.75;
+   margin-left: 15px;
 }
 .h {
    font-size: 50px;
