@@ -37,9 +37,10 @@ text-align: center;
    font-family: 'Fredericka the Great', cursive;
    display: flex;
    justify-content: space-around;
-   padding: 10px;
+   padding-top: 25px;
    margin: 0;
    list-style: none;
+   
 }
 a {
    text-decoration: none;
@@ -55,9 +56,11 @@ a {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   padding: 50px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    color: rgba(255, 255, 255, 0.644);
    text-shadow: 4px 4px 10px #29685F;
+   margin-bottom: 2px;
 }
 
 .menu {
@@ -99,4 +102,15 @@ h3 {
    font-size: 50px;
    font-family: 'Fredericka the Great', cursive;
    text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.our__coffee {
+   padding-top: 25px;
+   padding-bottom: 25px;
+   margin-bottom: 2px;
+}
+.our__coffee li {
+   display: flex;
+   align-items: center;
 }
