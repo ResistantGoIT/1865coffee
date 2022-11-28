@@ -22,7 +22,7 @@ header {
    background-color: #29685F;
    margin-bottom: 2px;
 }
-div li {
+.menu li {
    font-family: 'Fredericka the Great', cursive;
    font-size: 30px;
 }
