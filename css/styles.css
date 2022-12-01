@@ -89,6 +89,7 @@ a {
 h3 {
    display: flex;
    font-family: Alegreya SC;
+   font-weight: 500;
    text-transform: uppercase;
    justify-content: space-around;
    padding-top: 50px;
@@ -237,7 +238,8 @@ h3 {
    text-align: center;
    margin-bottom: 20px;
    font-size: 20px;
-   font-family: 'Fredericka the Great', cursive;
+   font-weight: 400px;
+   color: #757575;
  }
  .team__links {
    fill: rgb(41, 102, 93);
