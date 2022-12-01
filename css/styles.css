@@ -11,6 +11,25 @@ html {
    margin: 0;
    padding: 0;
  }
+
+ @media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
  h2 {
   background-color: #29685F;
   color: #ffffff;
