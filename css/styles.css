@@ -246,6 +246,20 @@ h3 {
    padding-top: 30px;
    padding-bottom: 10px;
  }
+ .team__item img {
+  border-radius: 50%;
+ }
+ a svg {
+  width: 50px;
+  height: 50px;
+ }
+ a svg g {
+  fill: #29685F;
+ }
+ a svg:hover g {
+  fill: tomato;
+ }
+
  .team__position{
    text-align: center;
    margin-bottom: 20px;
@@ -253,15 +267,8 @@ h3 {
    font-weight: 400px;
    color: #757575;
  }
- .team__links {
-   fill: rgb(41, 102, 93);
-   text-align: center;
- }
- .links__img{
-   height: 50px;
-   width: 50px;
-   background-color: #29685F;
- }
+ 
+
 
 
 
