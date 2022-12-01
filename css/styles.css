@@ -231,8 +231,10 @@ h3 {
  .team__item:not(:last-child){
    margin-right: 10px;
  }
- .team__name{
+ .team__item .team__name{
    text-align: center;
+   padding-top: 30px;
+   padding-bottom: 10px;
  }
  .team__position{
    text-align: center;
