@@ -208,7 +208,7 @@ padding: 50px;
 .section__menu{
    background-image: linear-gradient(
       to top,
-      rgba(47, 48, 58, 0.9),
+      rgba(47, 48, 58, 0.7),
       rgba(47, 48, 58, 0.9)
     ),
     url("../images/cooffee_shop.jpg");
@@ -256,6 +256,8 @@ h3 {
 .menu__price {
    display: flex;
    justify-content: space-between;
+   padding-top: 15px;
+   padding-bottom: 15px;
 
 }
 .menu__price li {
