@@ -53,8 +53,16 @@ li {
 text-align: center;
 padding-bottom: 25px;
 }
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
 
 .nav {
+   position: sticky;
+   top: -1;
    font-size: 30px;
    font-family: 'Fredericka the Great', cursive;
    display: flex;
@@ -157,7 +165,7 @@ z-index: 2;
 width: 550px;
 border-radius: 10px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-background-color: rgb(206, 59, 59);
+background-color: tomato;
 padding: 50px;
 }
 .modal__window p {
@@ -172,6 +180,7 @@ padding: 50px;
 }
 .modal__close {
   display: block;
+  border-radius: 50%;
   position: absolute;
   right: 4px;
   top: 4px;
@@ -181,7 +190,9 @@ padding: 50px;
   cursor: pointer;
 }
 .modal__close svg:hover {
-  fill: red;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #212121;
 }
 .modal:target{
   opacity: 1;
@@ -205,14 +216,14 @@ padding: 50px;
    background-size: cover;
    background-position: center;
    padding-top: 25px;
-   padding-bottom: 25px;
-   color: rgba(255, 255, 255, 0.644);
+   color: #fff;
    text-shadow: 4px 4px 10px #29685f86;
    margin-bottom: 20px;
 }
 
 .menu {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    
 }
@@ -227,9 +238,17 @@ h3 {
    font-size: 30px;
 }
 .menu__block {
+  width: 40%;
    padding-left: 15px;
    padding-right: 15px;
    border: 2px solid #29685F;
+   margin-bottom: 25px;
+}
+.menu__block h3 {
+  background-color: #29685F;
+  padding-top: 20px;
+  margin-top: 5px;
+  color: #fff;
 }
 .menu__item{
    line-height: 1.75;
@@ -257,6 +276,7 @@ h3 {
    padding-bottom: 15px;
 }
 .our__coffee {
+  background-color: #fff;
    padding-bottom: 25px;
    margin-bottom: 20px;
    background-image: url(../images/grain.png), url(../images/brasil+-500x500.jpg);
@@ -372,18 +392,20 @@ h3 {
    text-align: center;
    padding-top: 30px;
    padding-bottom: 10px;
+   text-transform: none;
  }
  .team__item img {
   border-radius: 50%;
+  padding: 10px;
  }
  a svg {
   width: 50px;
   height: 50px;
  }
- a svg g {
+ .team__links svg g {
   fill: #29685F;
  }
- a svg:hover g {
+ .team__links svg:hover g {
   fill: tomato;
   transition: all ease 1s;
  }
@@ -436,14 +458,14 @@ h3 {
  .arrow-prev{
    left:-30px;
    position:absolute;
-   top:50%;
+   top:80%;
    transform:translateY(-50%) rotate(135deg);
  }
   
  .arrow-next{
      right:-30px;
    position:absolute;
-   top:50%;
+   top:20%;
    transform:translateY(-50%) rotate(-45deg);
    }
  
