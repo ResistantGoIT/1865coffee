@@ -382,6 +382,7 @@ h3 {
  }
  .team__list {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    margin-bottom: 10px;
    padding-top: 20px;
