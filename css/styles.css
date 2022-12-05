@@ -45,6 +45,9 @@ header {
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 
 @media screen and (min-width: 480px) {
@@ -98,8 +101,10 @@ padding-bottom: 25px;
 .nav a {
   color: #ffffff;
 }
-a {
-   text-decoration: none;
+.nav a:hover,
+.nav a:focus {
+  color: tomato;
+  transition: all ease 0.5s;
 }
 
 
@@ -430,7 +435,7 @@ h3 {
  }
  .team__links svg:hover g {
   fill: tomato;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
  }
 
  .team__position{
@@ -526,14 +531,16 @@ h3 {
      opacity: 1;
    }
 
-   footer svg:hover,
-   footer svg:focus {
-    fill: tomato;
-   }
-   
    footer svg {
     fill: #fff;
    }
+   footer svg:hover,
+   footer svg:focus {
+    fill: tomato;
+    transition: all ease 0.5s;
+   }
+   
+   
    .footer {
     background-color: #29685F;
     padding-top: 25px;
