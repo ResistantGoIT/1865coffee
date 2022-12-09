@@ -137,7 +137,9 @@ padding-bottom: 25px;
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.btn__run:hover {
+  transform: translateY(-75px);
+}
 .modal {
   position: fixed;
   top: 0;
@@ -358,6 +360,7 @@ h3 {
  }
  .team {
   margin-bottom: 2px;
+  background-color: rgba(41, 104, 95, 0.1);
  }
  .team__list {
    display: flex;
@@ -515,3 +518,103 @@ h3 {
     width: 30%;
    }
    
+
+
+
+   @media screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+      width: 480px;
+      margin: 0 auto;
+    }
+    .advertising {
+      background-position: center;
+      background-size: cover;
+      padding-top: 130px;
+      padding-right: 52px;
+      padding-bottom: 170px;
+      padding-left: 22px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+    .cat {
+      display: none;
+    }
+    .advertising__title {
+      font-size: 22px;
+      margin-left: 60px;
+    }
+    .modal__btn {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 1.87;
+      height: 50px;
+      width: 100px;
+      margin-left: 80px;
+    }
+    .menu__block {
+      width: 400px;
+    }
+    .our__coffee {
+      background-image: none;
+    }
+    .carousel-wrapper {
+      height: 530px;
+      position: relative;
+      width: 350px;
+      margin: 0 auto;
+    }
+    .team__item:not(:last-child) {
+      margin-right: 0px; 
+    }
+    .team__item{
+     margin-bottom: 10px;
+    }
+    .footer__logo svg {
+      width: 150px;
+      height: 125px;
+    } 
+    address svg,
+    .footer__instagram svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+      width: 768px;
+    }
+    .advertising{
+      padding-right: 100px;
+      padding-left: 155px;
+      }
+      .menu__price li {
+        font-size: 20px;
+      }
+      .our__coffee {
+        background-size: 200px 150px, 170px 170px;
+      }
+      .team__item:not(:last-child) {
+         margin-right: 0px; 
+      }
+    .team__item{
+      margin-bottom: 10px;
+    }
+    .footer__logo svg {
+      width: 200px;
+      height: 125px;
+    } 
+    address svg,
+    .footer__instagram svg {
+      width: 90px;
+      height: 90px;
+    }
+    
+    }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
