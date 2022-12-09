@@ -552,6 +552,9 @@ h3 {
       width: 100px;
       margin-left: 80px;
     }
+    .modal__window {
+      min-width: 400px;
+    }
     .menu__block {
       width: 400px;
     }
