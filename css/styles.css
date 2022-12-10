@@ -16,8 +16,8 @@ html {
   background-color: #29685F;
   color: #ffffff;
   margin-bottom: 2px;
-  border-top-left-radius: 60%;
-  border-top-right-radius: 60%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
  }
  section {
   border-right: 2px solid #29685F;
@@ -136,7 +136,7 @@ padding-bottom: 25px;
   color: #ffffff;
   background: #29685F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 20px;
   border: none;
   margin: auto;
   text-transform: uppercase;
@@ -235,10 +235,12 @@ h3 {
    padding-left: 15px;
    padding-right: 15px;
    border: 2px solid #29685F;
+   border-radius: 10%;
    margin-bottom: 25px;
 }
 .menu__block h3 {
   background-color: #29685F;
+  border-radius: 20px;
   padding-top: 20px;
   margin-top: 5px;
   color: #fff;
