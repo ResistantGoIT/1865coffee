@@ -537,11 +537,9 @@ h3 {
    @media screen and (min-width: 320px) and (max-width: 479px) {
     .container {
       margin: 0 auto;
-      padding: 0;
+      padding: 3px;
     }
-    section {
-      border: none;
-    }
+    
     .cat {
       display: none;
     }
@@ -581,7 +579,7 @@ h3 {
       font-size: 20px;
     }
     .menu__block {
-      width: 400px;
+      width: 325px;
     }
     .menu__price li {
       font-size: 20px;
