@@ -539,6 +539,9 @@ h3 {
       margin: 0 auto;
       padding: 0;
     }
+    section {
+      border: none;
+    }
     .cat {
       display: none;
     }
