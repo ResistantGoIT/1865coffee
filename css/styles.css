@@ -607,6 +607,10 @@ h3 {
     .team__item{
      margin-bottom: 10px;
     }
+    .footer {
+      padding-left: 56px;
+      padding-right: 56px;
+    }
     .footer__logo, address, 
     .footer__instagram {
       width: 125px; 
@@ -617,8 +621,8 @@ h3 {
     } 
     address svg,
     .footer__instagram svg {
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
     }
    }
    @media screen and (min-width: 480px) and (max-width: 767px) {
