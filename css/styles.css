@@ -532,7 +532,6 @@ h3 {
 
    @media screen and (min-width: 320px) and (max-width: 479px) {
     .container {
-      width: 320px;
       margin: 0 auto;
     }
     .cat {
@@ -550,13 +549,16 @@ h3 {
     }
     .advertising__title {
       padding-top: 88px;
-      font-size: 20px;
-      margin-left: 18px;
+      font-size: 17px;
+      margin-left: 32px;
     }
     .advertising .flex {
+      display: block;
       margin-bottom: 130px;
+      margin-left: 30px;
     }
     .modal__btn {
+      display: inline-block;
       font-weight: bold;
       font-size: 16px;
       line-height: 1.87;
@@ -583,6 +585,11 @@ h3 {
       text-align: center;
       justify-content: center;
     }
+    .filter-examples-name {
+      font-weight: normal;
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+    }
     .carousel-wrapper {
       display: none;
     }
@@ -600,14 +607,18 @@ h3 {
     .team__item{
      margin-bottom: 10px;
     }
+    .footer__logo, address, 
+    .footer__instagram {
+      width: 125px; 
+  }
     .footer__logo svg {
-      width: 100px;
-      height: 60px;
+      width: 125px;
+      height: 100px;
     } 
     address svg,
     .footer__instagram svg {
-      width: 45px;
-      height: 45px;
+      width: 60px;
+      height: 60px;
     }
    }
    @media screen and (min-width: 480px) and (max-width: 767px) {
