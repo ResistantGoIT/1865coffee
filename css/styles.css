@@ -537,6 +537,7 @@ h3 {
    @media screen and (min-width: 320px) and (max-width: 479px) {
     .container {
       margin: 0 auto;
+      padding: 0;
     }
     .cat {
       display: none;
