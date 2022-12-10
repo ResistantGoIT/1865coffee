@@ -16,6 +16,8 @@ html {
   background-color: #29685F;
   color: #ffffff;
   margin-bottom: 2px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
  }
  section {
   border-right: 2px solid #29685F;
