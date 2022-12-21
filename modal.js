@@ -12,3 +12,7 @@
      refs.modal.classList.toggle('is-hidden');
    }
  })();
+
+ function scrollToTop() {
+  window.scrollTo(0, 0);
+ }
